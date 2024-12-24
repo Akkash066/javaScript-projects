@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: linear-gradient(to left bottom, rgb(173, 220, 173), rgb(226, 182, 189), rgb(100, 100, 228));;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.container{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: darkgreen;
+}
+.heading{
+    text-shadow: 4px 4px 2px rgba(210, 25,2, 0.3);
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.joke{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    width: 300px;
+    color: darkgreen;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease;
+}
