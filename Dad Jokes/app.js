@@ -1,7 +1,6 @@
 const btn = document.getElementById("btn");
 
-// const apikey = "Enter your api key";
-const apikey = "https://icanhazdadjoke.com/";
+const apikey = "api key";
 
 const options = {
     method: "GET", 
@@ -11,7 +10,7 @@ const options = {
 
 };
 
-const apiURL = "https://icanhazdadjoke.com/";
+const apiURL = "api url";
 async function getJoke(){
     const response = await fetch(apiURL, options);
     const data = response.json();
