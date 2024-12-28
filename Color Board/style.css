@@ -18,3 +18,15 @@ body{
     flex-wrap: wrap;
     max-width: 400px;
 }
+.square{
+    background-color: #1d1d1d;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 3px;
+    margin: 2px;
+    transition: 2s ease;
+}
+
+.square:hover{
+    transition-duration: 0s;
+}
