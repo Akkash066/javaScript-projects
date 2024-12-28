@@ -1,5 +1,7 @@
 const container = document.getElementById("container");
+
 var colors = ["#D91656", "#FEFFA7", "#FF0080", "#E6E9AF", "#EBEAFF","#640D5F", "#D91656","#EE66A6"];
+
 var squares = 1000;
 
 for(let i = 0; i<squares; i++){
@@ -11,19 +13,17 @@ for(let i = 0; i<squares; i++){
     square.addEventListener("mouseout", ()=> removeColor(square));
     container.appendChild(square);
 }
-//set color
+
 function setColor(element){
     const color = randdomColor();
-    element.style.backgroung = color;
+    element.style.background = color;
     element.style.boxShadow = `0 0 3px ${color}, 0 010px ${color}`;
 }
 
-//remove color
 function removeColor(element){
-    element.style.backgroung = "#1d1d1d";
+    element.style.background = "#1d1d1d";
     element.style.boxShadow = "0 0 3px";
 }
-//generate random color
 function randdomColor(){
     return colors [Math.floor(Math.random()*colors.length)];
 }
