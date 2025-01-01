@@ -16,6 +16,7 @@ body{
     font-size: 15rem;
     transition-duration: 200ms;
     filter: grayscale(1);
+    cursor: pointer;
 }
 #emoji:hover{
     filter: grayscale(0);
