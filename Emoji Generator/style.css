@@ -1,1 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: darkcyan;
+}
+
+#emoji{
+    font-size: 15rem;
+    transition-duration: 200ms;
+    filter: grayscale(1);
+}
+#emoji:hover{
+    filter: grayscale(0);
+}
