@@ -4,13 +4,14 @@ body{
     background-color: coral;
 }
 #calculator{
-    width: 500px;
+    width: 30%;
     height: auto;
     margin: 0 auto;
     background-color: #176887;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #943c;
+    text-align: center;
 }
 .indicator{
     text-align: center;
@@ -29,7 +30,7 @@ body{
     text-align: center;
 }
 button{
-   width: 90px;
+   width: 20%;
    height: 50px;
    margin: 5px;
    border-radius: 10px; 
