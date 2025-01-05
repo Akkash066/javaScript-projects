@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <textarea id="text" Please write here></textarea>
+        <div class="qrCodeBox">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=hello">
+        </div>
+        <button id="Generator">Take your QR Code</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
