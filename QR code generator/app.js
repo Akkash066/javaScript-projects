@@ -1,9 +1,5 @@
 const data = document.querySelector("#text");
 const qrCode = document.querySelector("#qrCode");
-
-
-const data = document.querySelector("#text");
-const qrCode = document.querySelector("#qrCode");
 const Generator = document.querySelector("#Generator");
 
 const url = "https://api.qrserver.com/v1/create-qr-code/"
@@ -15,4 +11,10 @@ Generator.addEventListener("click", () => {
     if(data.value == ""){
         qrCode.src = "/def.png";
     }
-})
+});
+
+
+
+
+// https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=hello
+// for reference.
