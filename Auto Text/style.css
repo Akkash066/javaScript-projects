@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #000;
     color: white;
@@ -12,17 +11,13 @@ body{
     align-items: center;
     height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
-
 p{
     font-size: 3rem;
 }
-
 .js{
     color: greenyellow;
 }
-
 .typed-text{
     color: rgb(204, 204, 91);
 }
