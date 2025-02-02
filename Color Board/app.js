@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-var colors = ["#D91656", "#FEFFA7", "#FF0080", "#E6E9AF", "#EBEAFF","#640D5F", "#D91656","#EE66A6"];
+var colors = ["#D91656", "#FEFFA7", "#FF0080", "#E6E9AF", "#EBEAFF","#640D5F", "#D91656","#EE66A6", "#E47B4C", "#063970"];
 var squares = 1000;
 
 for(let i = 0; i<squares; i++){
