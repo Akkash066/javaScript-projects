@@ -11,17 +11,14 @@ function isLastCharOperator(value) {
 for (let i = 0; i < _length; i++) {
     _buttons[i].onclick = indicator;
 }
-
 // Handle button clicks
 function indicator() {
     let _value = this.innerHTML;
-
     if (_value === "C") {
         // Clear result on "C" button click
         _result.value = "";
         return;
     }
-
     if (_value === "=") {
         // Evaluate the result on "=" button click
         try {
@@ -31,7 +28,6 @@ function indicator() {
         }
         return;
     }
-
     if (["+", "-", "*", "/"].includes(_value)) {
         // Prevent consecutive operators
         if (isLastCharOperator(_result.value)) {
