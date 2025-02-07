@@ -1,9 +1,10 @@
 const btn = document.getElementById("btn");
-const apikey = "api key";
+const apikey = "Paste your API Key";
+
 const options = {
     method: "GET", 
     headers: {
-        "X-Api-key": apikey,
+        "X-Api-key API KEY": apikey,
     },
 };
 const apiURL = "api url";
