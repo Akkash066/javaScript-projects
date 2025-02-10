@@ -1,1 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #7795b4;
+    overflow: hidden;
+}
+
+.kinetic{
+    position: relative;
+    height: 80px;
+    width: 90px;
+}
+
+.kinetic::after, .kinetic::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    border: 50px solid transparent;
+    border-bottom-color: rgb(49, 49, 239);
+    animation: rot 2s linear infinite 0.5s;
+}
+
+@keyframes rot {
+    0%, 25%{
+        transform: rotate(0deg);
+    }
+    50%, 75%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.kinetic::before{
+    transform: rotate(90deg);
+    animation: rotb 2s linear infinite;
+    border-bottom-color: maroon;
+}
+
+@keyframes rotb {
+    0%, 25%{
+        transform: rotate(90deg);
+    }
+    50%, 75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(450deg);
+    }
+}
