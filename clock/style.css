@@ -30,4 +30,26 @@ h2{
 .clock span{
     width: 100px;
     height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    margin: 5px;
+    border-radius: 4px;
+}
+#text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(17, 16, 20);
+    opacity: 0.7;
+}
+#pmam{
+    bottom: 0px;
+    position: absolute;
+    width: 50px;
+    height: 30px;
 }
