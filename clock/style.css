@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: gray;
+}
+h2{
+    font-family: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 5px black;
+}
+.clock{
+    display: flex;
+
+}
+
+.clock div{
+    margin: 6px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+}
